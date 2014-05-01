@@ -1,0 +1,41 @@
+{
+  "name": "knockout-sammy",
+  "version": "0.0.1",
+  "homepage": "",
+  "authors": [
+    "asaake"
+  ],
+  "main": "main.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "app",
+    "bower_components",
+    "manifest",
+    "node_modules",
+    "test",
+    "bower.json",
+    "easy-mincer.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "console-polyfill": "*",
+    "sugar": "*",
+    "jquery": "*",
+    "bootstrap": "*",
+    "knockoutjs": "*",
+    "knockout-es5": "*",
+    "knockout-validation": "*",
+    "sammy": "*",
+    "x18n": "*",
+    "require-mini": "https://github.com/asaake/require-mini.git",
+    "javascript-relational": "https://github.com/asaake/javascript-relational.git",
+    "knockout-relational": "https://github.com/asaake/knockout-relational.git"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "sinon": "*",
+    "expect": "*",
+    "sinon-expect": "*"
+  }
+}

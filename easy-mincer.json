@@ -1,0 +1,40 @@
+{
+  "port": 3000,
+  "serverRoot": "/",
+  "assets": {
+    "contextRoot": "/assets",
+    "paths": [
+      "bower_components",
+      "app/assets/javascripts",
+      "app/assets/stylesheets",
+      "app/assets/templates",
+      "test/assets/javascripts",
+      "test/assets/stylesheets",
+      "test/assets/templates",
+      "stub/assets/javascripts",
+      "stub/assets/stylesheets",
+      "stub/assets/templates",
+      "stub/public/javascripts",
+      "stub/public/stylesheets",
+      "stub/public/templates"
+    ],
+    "useSourceMaps": true
+  },
+  "rewrite": {
+    "paths": {
+      "/stub/**": "/stub/index.html"
+    },
+    "ignorePaths": [
+      "/assets/**"
+    ]
+  },
+  "log": {
+    "debug": false,
+    "info": false,
+    "warn": true,
+    "error": true
+  },
+  "compile": {
+    "paths": ["knockout-sammy.js", "vendor.js"]
+  }
+}
