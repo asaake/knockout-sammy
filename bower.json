@@ -14,6 +14,7 @@
     "manifest",
     "node_modules",
     "test",
+    "stub",
     "bower.json",
     "easy-mincer.json",
     "package.json"
